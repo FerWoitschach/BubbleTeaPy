@@ -16,5 +16,8 @@ classifiers = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["bubbleteapy"]
+packages = ["module/source"]
+
+[tool.hatch.build.targets.wheel.sources]
+"module/source" = "bubbleteapy"
 
