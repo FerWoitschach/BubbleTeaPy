@@ -1,5 +1,5 @@
 build:
-	python -m build --outdir module/releases/ 
+	python -m build --outdir module/releases/
 
 check:
 	unzip -l module/releases/*.whl
@@ -8,3 +8,5 @@ check:
 upload:
 	python -m twine upload --verbose module/releases/*
 
+edit:
+	code . --profile="bobatea"
