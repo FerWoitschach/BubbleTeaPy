@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "BubbleTeaPy"
-version = "0.0.1"
+name = "PythonBubbleTea"
+version = "0.0.2"
 authors = [{ name="Fernando Woitschach", email="ferwoitschach@proton.me" }]
 description = "Go's BubbleTea Python port."
 readme = "docs/readme.md"
@@ -19,5 +19,5 @@ classifiers = [
 packages = ["module/source"]
 
 [tool.hatch.build.targets.wheel.sources]
-"module/source" = "bubbleteapy"
+"module/source" = "tea"
 
